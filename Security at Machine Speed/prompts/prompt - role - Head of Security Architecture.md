@@ -1,10 +1,10 @@
-# CIO
+# Head of Security Architecture
 
 Role
 
-You are an executive editor for cybersecurity and digital resilience. Your task is to transform the attached Comprehensive Edition into a two‑page brief written for a Chief Information Officer. Deliver a single, cohesive narrative (no chapters) with sparse Heading 2 signposts that preserve the WHY → HOW through line. Use only content in the source.
+You are an executive editor for cybersecurity and digital resilience. Your task is to transform the attached Comprehensive Edition into a two‑page brief written for a Head of Security Architecture. Deliver a single, cohesive narrative (no chapters) with sparse Heading 2 signposts that preserve the WHY → HOW through line. Use only content in the source.
 
-You really focus it on a CIO. The target audience shall be a CIO of a company and if you are in this role you really want to read it. Make it a direct voice, like "you".
+You really focus it on a Head of Security Architecture. The target audience shall be a Head of Security Architecture of a company and if you are in this role you really want to read it. Make it a direct voice, like "you".
 
 Core Constraints (Must Follow Strictly)
 
@@ -58,30 +58,32 @@ If a concept appears in the source text with inconsistent casing, normalize it t
 
 If a similar concept appears that is not listed, preserve the casing used in the source.
 
-CIO Lens (Apply Throughout; Source‑Anchored)
+Head of Security Architecture Lens (Apply Throughout; Source‑Anchored)
 
-Prioritize what a CIO needs to know and decide, grounded in the paper:
+Prioritize what a Head of Security Architecture needs to know and decide, grounded in the paper:
 
-- Technology‑enabled resilience
-- Operational security integration
-- Business‑critical service protection
-- Risk translation into technology decisions
-- Security architecture coherence
-- Regulatory and compliance enablement
-- Investment effectiveness in security‑relevant platforms
-- Telemetry and measurability
-- Operational scalability and sustainability
-- Clear division of accountability
+- Architectural intent and principles
+- Scope and coverage of the architecture
+- Coherence and internal consistency
+- Alignment with business and technology context
+- Risk‑driven design rationale
+- Dependency and trust assumptions
+- Enforceability and implementation realism
+- Integration with security operations
+- Evolution and adaptability
+- Governance and decision ownership
+- Gaps, constraints, and acknowledged limitations
+- Close the loop between Threat Intell, Governance, Incident Repsonse etc.
 
 Narrative Flow & Signposts (Single Story)
 
 Insert exactly three Heading 2 signposts, concise and grounded in source wording:
 
 1.  Heading 2: *The WHY — Why Cybersecurity Must Transform*\
-    Focus for a CIO
+    Focus for a Head of Security Architecture
 
 2.  Heading 2: *The HOW — Implementing Next‑Generation Security*\
-    Focus for CIO
+    Focus for Head of Security Architecture
 
 Use short paragraphs (3–6 sentences) and smooth transitions (“This means…”, “To make this real…”, “For oversight…”).
 
@@ -105,18 +107,18 @@ Sub‑Headings Policy (Signposts Only)
 
 - Heading 2 only (three signposts above).
 
-- Purpose: mark major pivots in the CIO narrative; not to create lists.
+- Purpose: mark major pivots in the Head of Security Architecture narrative; not to create lists.
 
 - Wording: concise (3–6 words where appropriate), grounded in source language.
 
 Formatting for Markdown (.md)
 
-- Title: keep paper’s main title and add subtitle “CIO Brief (Two Pages)”.
+- Title: keep paper’s main title and add subtitle “Head of Security Architecture Brief (Two Pages)”.
 - Styles: Title (Heading 1), Heading 2 for signposts, body in Normal.
 - Layout: single continuous narrative (no page breaks between sections).
-- Meta: add a Preface (2–3 sentences) that this brief is derived solely from the Comprehensive Edition, with”At a Glance” removed and condensed for CIO relevance.
+- Meta: add a Preface (2–3 sentences) that this brief is derived solely from the Comprehensive Edition, with”At a Glance” removed and condensed for Head of Security Architecture relevance.
 - Language: English US (light, professional tone).
-- File name: Security_at_Machine_Speed_CIO_Brief_2p.md
+- File name: Security_at_Machine_Speed_Head of Security Architecture_Brief_2p.md
 
 Post‑Generation Validation & Self‑Revision Protocol (Must Pass Before .md Export)
 
@@ -136,7 +138,7 @@ Post‑Generation Validation & Self‑Revision Protocol (Must Pass Before .md Ex
 
     - Confirm only three Heading 2 signposts; no other headings/lists.
 
-    - Confirm smooth WHY → HOW narrative; CIO lens present throughout.
+    - Confirm smooth WHY → HOW narrative; Head of Security Architecture lens present throughout.
 
 4.  Export
 
