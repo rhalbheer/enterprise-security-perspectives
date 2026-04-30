@@ -20,7 +20,7 @@ This repository distils hard-won experience and current research into actionable
 
 A comprehensive series on transforming enterprise cybersecurity into a strategic advantage. The series covers **why** security must change, **where** to focus efforts, and **how** to implement next-generation defenses. All editions share the same structure and can be cross-referenced freely.
 
-> **Start here →** [READ THIS FIRST](Security%20at%20Machine%20Speed/Security%20at%20Machine%20Speed%20v0.5%20-READ%20THIS%20FIRST.md)
+> **Start here →** [README — Series Overview](Security%20at%20Machine%20Speed/README.md)
 
 | Edition | Length | Best for | Links |
 |---------|--------|----------|-------|
