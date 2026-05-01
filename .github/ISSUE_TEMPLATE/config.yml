@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Private Security Report
+    url: https://github.com/rhalbheer/enterprise-security-perspectives/security/advisories/new
+    about: "Report dangerously misleading content or a content integrity concern privately. Do NOT open a public issue for these."
+  - name: 💬 Contact the Author (LinkedIn)
+    url: https://www.linkedin.com/in/rhalbheer/
+    about: "Reach the author directly for private questions or sensitive feedback."

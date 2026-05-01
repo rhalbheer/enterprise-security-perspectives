@@ -1,0 +1,69 @@
+name: "🔧 Correction or Improvement"
+description: "Report a factual error, outdated reference, typo, or suggest a clarification."
+title: "Fix: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep **Enterprise Security Perspectives** accurate and up to date.
+
+        > **Heads up:** If you believe an error is **dangerously misleading** and could cause real harm if followed, please report it privately per the [Security Policy](../SECURITY.md) instead of opening a public issue.
+
+  - type: input
+    id: document
+    attributes:
+      label: Document and section
+      description: "Which document and section contains the issue?"
+      placeholder: "e.g. Security at Machine Speed — Appendix A"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Type of issue
+      options:
+        - Factual error
+        - Outdated reference or statistic
+        - Typo or grammatical error
+        - Unclear or ambiguous wording
+        - Broken or incorrect link
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Current text or content
+      description: "Quote or describe the specific passage, claim, or element that needs to be corrected."
+      placeholder: "e.g. The document states that DORA applies from January 2025, but the correct date is..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed correction or improvement
+      description: "What should it say instead? Provide the corrected text or a clear description of the change."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Supporting references (optional)
+      description: "Links to sources, standards, or documentation that support the correction."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have identified the exact document and section that needs to be changed.
+          required: true
+        - label: This is a factual or editorial issue, not a disagreement with the author's opinion or strategic direction.
+          required: true
