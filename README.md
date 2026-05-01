@@ -81,6 +81,14 @@ A CISO-facing framework for **European Digital Sovereignty**, mapping practical 
 
 ---
 
+## License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to share and adapt the material for any purpose, even commercially, as long as you give appropriate credit to the author and indicate if changes were made. See the [LICENSE](LICENSE) file for details.
+
+---
+
 ## Feedback & Contributions
 
 Found a typo, have a question, or want to suggest an improvement? Open an [issue](https://github.com/rhalbheer/enterprise-security-perspectives/issues) — feedback is always welcome.
