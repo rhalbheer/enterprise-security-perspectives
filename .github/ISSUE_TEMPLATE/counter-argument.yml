@@ -1,0 +1,65 @@
+name: "⚔️ Counter-Argument or Alternative Perspective"
+description: "Respectfully challenge an existing argument, framing, or recommendation in the repository."
+title: "Counter-argument: "
+labels: ["counter-argument"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Disagreement is welcome here.** This repository is built on the belief that healthy debate moves the security field forward. If you think a claim is wrong, oversimplified, or misses important nuance, say so — with reasoning.
+
+        Please review the [Code of Conduct](../CODE_OF_CONDUCT.md) before submitting. Critique the ideas, not the people.
+
+  - type: input
+    id: document
+    attributes:
+      label: Document and section
+      description: "Which document and section contains the argument you want to challenge?"
+      placeholder: "e.g. Security at Machine Speed — Chapter 2: Zero Trust Architecture"
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim or framing you are challenging
+      description: "Summarise the specific argument, recommendation, or framing you disagree with."
+      placeholder: "e.g. The document argues that Zero Trust should be the default architecture for all enterprise environments. I challenge the universality of this recommendation."
+    validations:
+      required: true
+
+  - type: textarea
+    id: counter
+    attributes:
+      label: Your counter-argument
+      description: "Present your alternative view. Use evidence, reasoning, and real-world examples where possible. Acknowledge trade-offs."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Supporting references or evidence (optional)
+      description: "Links to research, case studies, standards, or other sources that support your position."
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: What change would you like to see? (optional)
+      description: "If you have a concrete suggestion for how the content should be revised, describe it here. This is optional — raising the debate is valuable even without a specific fix."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: My counter-argument is directed at the ideas in the document, not at the author personally.
+          required: true
+        - label: I have provided reasoning to support my position (not just a statement of disagreement).
+          required: true
+        - label: This is not product or vendor promotion dressed as a counter-argument.
+          required: true
