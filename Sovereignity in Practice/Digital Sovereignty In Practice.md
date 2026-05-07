@@ -144,6 +144,9 @@ Legend: ● Primary \| ○ Secondary
 | S5 - Key sovereignty (“provider can’t decrypt”) & confidential processing |  | ○ | ● | ○ |  | ● | ○ |  |
 | S6 - Supply chain + sustainability resilience (long‑term autonomy) | ○ |  |  | ○ | ● | ○ | ○ | ● |
 
+
+------
+
 ### Scenario S1 - Sanctions / service suspension / geopolitical “kill switch”
 
 #### Mapped
@@ -198,6 +201,7 @@ Private/local sovereign environments reduce hyperscale cloud benefits (cost effi
 
 Sovereign Private Clouds typically cost more, reduce functionality, and add a significant talent burden: scarce platform/identity/security skills, plus patching, backup/DR, 24/7 coverage, and disciplined runbooks to stay reliable under stress.
 
+------
 ### Scenario S2 - Extraterritorial laws / legal conflict / compelled actions
 
 #### Mapped
@@ -240,6 +244,7 @@ In the case of the European Union. the EU’s Blocking Statute[^3] exists to pro
 
 Legal and process overhead is ongoing: maintaining transfer maps, running Transfer Impact Assessments, updating contracts and supplementary measures, and managing Blocking Statute obligations/derogations can add continuous governance work. In practice, this often lengthens procurement cycles and slows change management, because legal review and evidence collection must keep pace with new services, features, vendors, and cross‑border support scenarios - especially in regulated sectors.
 
+------
 ### Scenario S3 - In country/in region data residency & processing (incl. support data)
 
 #### Mapped
@@ -280,6 +285,7 @@ Customers - driven by regulatory obligations and the need to simplify initial an
 
 EU Data Boundary configurations and (where needed) Advanced Data Residency can add cost and delivery friction: eligibility checks and tenant migrations, tighter constraints on where workloads and support processes may run, and additional discipline to ensure new features, integrations, and incident workflows stay within the agreed boundary. The required countermeasures (data‑flow mapping, evidence packs, and residency verification in architecture and procurement) create ongoing governance overhead. From a resilience perspective, strict “stay‑in‑region” designs can also limit failover, capacity balancing, and service choice, reducing architectural flexibility and potentially increasing outage impact. As a result, overly rigid residency decisions may delay adoption or constrain recovery options without materially reducing risk for non‑critical workloads.
 
+------
 ### Scenario S4 - Privileged access & operational transparency (support access)
 
 #### Mapped
@@ -320,6 +326,7 @@ Customers want assurance that no unauthorized party across the supply chain—in
 
 Support can slow if the Mitigating Actions are not operationalized: Customer Lockbox/Data Guardian introduce an explicit approval step, and if 24/7 approver coverage, escalation paths, and runbooks are not in place, break/fix activities can queue while teams wait for authorization. Minimizing privileged roles and performing periodic review of access requests/logs improves control and auditability, but adds process overhead and coordination, particularly during incidents when speed matters.
 
+------
 ### Scenario S5 - Key sovereignty (“provider can’t decrypt”) & confidential processing
 
 #### Mapped
@@ -370,6 +377,7 @@ Strong key sovereignty (CMK/DKE/EKM) adds a hard operational dependency between 
 
 It can also reduce cloud-native features that require server-side content processing, e.g., limited web viewing for DKE‑protected content and constraints on capabilities like AI usage, search, malware scanning, and some DLP-style workflows depending on configuration.
 
+------
 ### Scenario S6 - Supply chain + sustainability resilience (long‑term autonomy)
 
 #### Mapped
