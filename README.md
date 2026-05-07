@@ -47,7 +47,7 @@ A CISO-facing framework for **European Digital Sovereignty**, mapping practical 
 
 | Document | Description | Link |
 |----------|-------------|------|
-| **European Digital Sovereignty In Practice** | Taxonomy aligned to EU CSF sovereignty objectives (SOV-1..SOV-8) and assurance levels (SEAL-0..SEAL-4); six practical scenarios with countermeasures and tradeoff guidance | [Markdown](Sovereignity%20in%20Practice/European_Digital_Sovereignty_in_Practice.md) |
+| **Digital Sovereignty In Practice** | Taxonomy aligned to EU CSF sovereignty objectives (SOV-1..SOV-8) and assurance levels (SEAL-0..SEAL-4); six practical scenarios with countermeasures and tradeoff guidance | [Markdown](Sovereignity%20in%20Practice/Digital%20Sovereignty%20In%20Practice.md) |
 
 **Core themes covered:**
 - Why "sovereignty" is not binary — and how to avoid "sovereignty theatre"
@@ -67,7 +67,7 @@ A CISO-facing framework for **European Digital Sovereignty**, mapping practical 
 | **CISO** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) + [Appendix](Security%20at%20Machine%20Speed/Security%20at%20Machine%20Speed%20v0.5%20-%20Appendix.md) |
 | **CIO / Head of Architecture** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) — focus on *Defense Architecture* and *Modern SOC* chapters |
 | **SOC Lead / Security Engineer** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) — focus on *Modern SOC*, *Threat Intelligence*, and *Dynamic Response Automation* |
-| **DPO / Compliance / Regulatory** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) — *Governance & Compliance* and *AI Governance* chapters; plus [Sovereignty in Practice](Sovereignity%20in%20Practice/European_Digital_Sovereignty_in_Practice.md) |
+| **DPO / Compliance / Regulatory** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) — *Governance & Compliance* and *AI Governance* chapters; plus [Sovereignty in Practice](Sovereignity%20in%20Practice/Digital%20Sovereignty%20In%20Practice.md) |
 | **Anyone short on time** | [The Essentials Edition](Security%20at%20Machine%20Speed/%2808%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Essentials%20Edition.md) |
 
 ---
