@@ -1,0 +1,57 @@
+name: "💡 Content Suggestion"
+description: "Propose a new topic, perspective, or framework to add to the repository."
+title: "Suggestion: "
+labels: ["content suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to **Enterprise Security Perspectives**! Please fill in the details below to help the maintainer and community understand your suggestion.
+
+        > **Before submitting:** check that your suggestion aligns with the [contributing guidelines](../CONTRIBUTING.md) — in particular, that it is not product/vendor promotion and is relevant to enterprise security.
+
+  - type: input
+    id: document
+    attributes:
+      label: Related document or section (if any)
+      description: "Name the document and section your suggestion relates to, or leave blank if it is an entirely new topic."
+      placeholder: "e.g. Security at Machine Speed — Chapter 3, or N/A (new topic)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What are you suggesting?
+      description: "Describe the topic, perspective, or framework you would like to see added. Be as specific as possible."
+      placeholder: "e.g. Add a section on operational technology (OT) security governance, covering the unique challenges of air-gapped environments and the convergence of IT/OT in critical infrastructure."
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why does this matter for enterprise security?
+      description: "Explain the relevance and value of this addition. What gap does it fill? What would readers gain?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Supporting references or evidence (optional)
+      description: "Links to research, standards, frameworks, or real-world cases that support your suggestion."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This suggestion is relevant to enterprise security.
+          required: true
+        - label: This suggestion does not promote a specific product, service, or vendor.
+          required: true
+        - label: I have checked that a similar suggestion has not already been raised.
+          required: true

@@ -1,0 +1,37 @@
+name: "❓ Question"
+description: "Ask a question about the content, concepts, or recommendations in this repository."
+title: "Question: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question about something in **Enterprise Security Perspectives**? Ask away — no question is too basic.
+
+        You can also reach the author directly via [LinkedIn](https://www.linkedin.com/in/rhalbheer/) if you prefer a private conversation.
+
+  - type: input
+    id: document
+    attributes:
+      label: Related document or section (if any)
+      description: "Which document or section is your question about? Leave blank if it is a general question."
+      placeholder: "e.g. Sovereignty in Practice — Section on data residency"
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: "Ask your question as clearly and specifically as possible."
+      placeholder: "e.g. The document recommends a risk-based approach to data residency decisions. How does this interact with contractual obligations that mandate specific jurisdictions?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: "Is there any background that would help us understand your question? For example, a specific industry, regulatory environment, or use case you are working in."
+    validations:
+      required: false
