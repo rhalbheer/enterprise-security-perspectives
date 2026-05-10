@@ -22,12 +22,31 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: document
     attributes:
       label: Related document or section (optional)
-      description: "Add the document and section if your feedback is about specific content."
-      placeholder: "e.g. Security at Machine Speed — Chapter 3"
+      description: "Select the document your feedback relates to, if applicable."
+      options:
+        - Security at Machine Speed — The Comprehensive Edition
+        - Security at Machine Speed — The Leadership Edition
+        - Security at Machine Speed — The Essentials Edition
+        - Security at Machine Speed — Appendix
+        - Security at Machine Speed — Board of Directors' Role Guide
+        - Security at Machine Speed — CEO Role Guide
+        - Security at Machine Speed — CFO Role Guide
+        - Security at Machine Speed — CIO Role Guide
+        - Security at Machine Speed — CISO Role Guide
+        - Security at Machine Speed — CTO Role Guide
+        - Security at Machine Speed — DPO Role Guide
+        - Security at Machine Speed — Head of Regulatory Compliance Role Guide
+        - Security at Machine Speed — Head of Security Architecture Role Guide
+        - Security at Machine Speed — Head of Threat Intelligence Role Guide
+        - Security at Machine Speed — Head of SOC Role Guide
+        - Security at Machine Speed — Internal Audit Role Guide
+        - Your Security Model Is Too Slow to Matter
+        - Digital Sovereignty In Practice
+        - Other
     validations:
       required: false
 
