@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for contributing to **Enterprise Security Perspectives**.
 
-        If the issue is **dangerously misleading** and could cause real harm if followed, please report it privately via the [Security Policy](../SECURITY.md) instead of opening a public issue.
+        If the issue is **dangerously misleading** and could cause real harm if followed, please report it privately via the [Security Policy](https://github.com/rhalbheer/enterprise-security-perspectives/blob/main/SECURITY.md) instead of opening a public issue.
 
   - type: dropdown
     id: feedback_type
