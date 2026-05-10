@@ -1,0 +1,49 @@
+name: "📝 Feedback"
+description: "Share a suggestion, correction, question, or alternative perspective."
+title: "Feedback: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to **Enterprise Security Perspectives**.
+
+        If the issue is **dangerously misleading** and could cause real harm if followed, please report it privately via the [Security Policy](https://github.com/rhalbheer/enterprise-security-perspectives/blob/main/SECURITY.md) instead of opening a public issue.
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: Type of feedback
+      options:
+        - Suggestion
+        - Correction or improvement
+        - Counter-argument
+        - Question
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: document
+    attributes:
+      label: Related document or section (optional)
+      description: "Add the document and section if your feedback is about specific content."
+      placeholder: "e.g. Security at Machine Speed — Chapter 3"
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Your feedback
+      description: "Share the key point, question, or proposed change."
+      placeholder: "What would you like to add, challenge, clarify, or correct?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context (optional)
+      description: "Add references, background, or a suggested wording change if helpful."
+    validations:
+      required: false

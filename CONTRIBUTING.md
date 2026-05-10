@@ -68,4 +68,4 @@ All contributors are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md
 
 ## Questions?
 
-Open an [issue](https://github.com/rhalbheer/enterprise-security-perspectives/issues) and tag it with `question`. You can also reach the author directly via [LinkedIn](https://www.linkedin.com/in/rhalbheer/).
+Open an [issue](https://github.com/rhalbheer/enterprise-security-perspectives/issues). You can also reach the author directly via [LinkedIn](https://www.linkedin.com/in/rhalbheer/).
