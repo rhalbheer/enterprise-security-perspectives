@@ -18,17 +18,11 @@ This repository distils hard-won experience and current research into actionable
 
 ### 📄 [Security at Machine Speed: Winning The Digital Arms Race](Security%20at%20Machine%20Speed/)
 
-A comprehensive series on transforming enterprise cybersecurity into a strategic advantage. The series covers **why** security must change, **where** to focus efforts, and **how** to implement next-generation defenses. All editions share the same structure and can be cross-referenced freely.
+A series on transforming enterprise cybersecurity into a strategic advantage. The series covers **why** security must change, **where** to focus efforts, and **how** to implement next-generation defenses.
 
-> **Start here →** [README — Series Overview](Security%20at%20Machine%20Speed/README.md)
-
-| Edition | Length | Best for | Links |
-|---------|--------|----------|-------|
-| **The Comprehensive Edition** | ~30 pages | CISOs, CIOs, Security Architects, DPOs, Compliance leads who want full depth | [Markdown](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) · [PDF](Security%20at%20Machine%20Speed/pdfs/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.pdf) |
-| **The Leadership Edition** | ~15 pages | CEOs, CFOs, COOs who need strategic depth without technical detail | [Markdown](Security%20at%20Machine%20Speed/%2815%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Leadership%20Edition.md) · [PDF](Security%20at%20Machine%20Speed/pdfs/%2815%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Leadership%20Edition.pdf) |
-| **The Essentials Edition** | ~8 pages | Anyone who wants the core message in a short, time-efficient read | [Markdown](Security%20at%20Machine%20Speed/%2808%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Essentials%20Edition.md) · [PDF](Security%20at%20Machine%20Speed/pdfs/%2808%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Essentials%20Edition.pdf) |
-| **The Role Guide — Board of Directors** | ~2 pages | Board members who need a concise, governance-focused briefing | [Markdown](Security%20at%20Machine%20Speed/%2802%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Role%20Guide%20for%20the%20Board%20of%20Directors.md) · [PDF](Security%20at%20Machine%20Speed/pdfs/%2802%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Role%20Guide%20for%20the%20Board%20of%20Directors.pdf) |
-| **Appendix** | Reference | Implementation plan (0–18 months) and modern CISO profile | [Markdown](Security%20at%20Machine%20Speed/Security%20at%20Machine%20Speed%20v0.5%20-%20Appendix.md) · [PDF](Security%20at%20Machine%20Speed/pdfs/Security%20at%20Machine%20Speed%20v0.5%20-%20Appendix.pdf) |
+| Document | Description | Link |
+|----------|-------------|------|
+| **Your Security Model Is Too Slow to Matter** | The current paper — a direct leadership reality check on machine-speed threats, governance failures, and what must change now | [Markdown](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · [PDF](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.pdf) |
 
 **Core themes covered:**
 - Machine-speed attacks and why reaction time is now a board-level risk metric
@@ -38,6 +32,8 @@ A comprehensive series on transforming enterprise cybersecurity into a strategic
 - Collective Defense — operationalizing trusted intelligence sharing with peers and hyperscalers
 - Governance, Compliance & AI governance aligned to GDPR, NIS2, DORA, and the EU AI Act
 - CISO role evolution and 0–18 month implementation roadmap
+
+The [original series](Security%20at%20Machine%20Speed/original%20papers/) covers the same themes across multiple editions and role-specific guides — see the [series overview](Security%20at%20Machine%20Speed/original%20papers/README.md) for the full list.
 
 ---
 
@@ -62,13 +58,13 @@ A CISO-facing framework for **European Digital Sovereignty**, mapping practical 
 
 | Your role | Recommended starting point |
 |-----------|---------------------------|
-| **Board member** | [Role Guide — Board of Directors](Security%20at%20Machine%20Speed/%2802%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Role%20Guide%20for%20the%20Board%20of%20Directors.md) |
-| **CEO / CFO / COO** | [The Leadership Edition](Security%20at%20Machine%20Speed/%2815%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Leadership%20Edition.md) |
-| **CISO** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) + [Appendix](Security%20at%20Machine%20Speed/Security%20at%20Machine%20Speed%20v0.5%20-%20Appendix.md) |
-| **CIO / Head of Architecture** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) — focus on *Defense Architecture* and *Modern SOC* chapters |
-| **SOC Lead / Security Engineer** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) — focus on *Modern SOC*, *Threat Intelligence*, and *Dynamic Response Automation* |
-| **DPO / Compliance / Regulatory** | [The Comprehensive Edition](Security%20at%20Machine%20Speed/%2830%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Comprehensive%20Edition.md) — *Governance & Compliance* and *AI Governance* chapters; plus [Sovereignty in Practice](Sovereignity%20in%20Practice/Digital%20Sovereignty%20In%20Practice.md) |
-| **Anyone short on time** | [The Essentials Edition](Security%20at%20Machine%20Speed/%2808%20p%29%20Security%20at%20Machine%20Speed%20v0.5%20-%20The%20Essentials%20Edition.md) |
+| **Board member** | [Your Security Model Is Too Slow to Matter](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · or the original [Role Guide — Board of Directors](Security%20at%20Machine%20Speed/original%20papers/%2802%20p%29%20Security%20at%20Machine%20Speed%20-%20Board%20of%20Directors%27%20Role%20Guide.md) |
+| **CEO / CFO / COO** | [Your Security Model Is Too Slow to Matter](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · or the original [Leadership Edition](Security%20at%20Machine%20Speed/original%20papers/%2815%20p%29%20Security%20at%20Machine%20Speed%20-%20The%20Leadership%20Edition.md) |
+| **CISO** | [Your Security Model Is Too Slow to Matter](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · or the original [Comprehensive Edition](Security%20at%20Machine%20Speed/original%20papers/%2830%20p%29%20Security%20at%20Machine%20Speed%20-%20The%20Comprehensive%20Edition.md) + [Appendix](Security%20at%20Machine%20Speed/original%20papers/Security%20at%20Machine%20Speed%20-%20Appendix.md) |
+| **CIO / Head of Architecture** | [Your Security Model Is Too Slow to Matter](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · or the original [Comprehensive Edition](Security%20at%20Machine%20Speed/original%20papers/%2830%20p%29%20Security%20at%20Machine%20Speed%20-%20The%20Comprehensive%20Edition.md) |
+| **SOC Lead / Security Engineer** | [Your Security Model Is Too Slow to Matter](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · or the original [Comprehensive Edition](Security%20at%20Machine%20Speed/original%20papers/%2830%20p%29%20Security%20at%20Machine%20Speed%20-%20The%20Comprehensive%20Edition.md) |
+| **DPO / Compliance / Regulatory** | [Your Security Model Is Too Slow to Matter](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · plus [Sovereignty in Practice](Sovereignity%20in%20Practice/Digital%20Sovereignty%20In%20Practice.md) |
+| **Anyone short on time** | [Your Security Model Is Too Slow to Matter](Security%20at%20Machine%20Speed/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · or the original [Essentials Edition](Security%20at%20Machine%20Speed/original%20papers/%2808%20p%29%20Security%20at%20Machine%20Speed%20-%20The%20Essentials%20Edition.md) |
 
 ---
 
