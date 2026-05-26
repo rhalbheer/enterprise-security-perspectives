@@ -1,296 +1,91 @@
-# Security at AI Speed
-## The Modern CISO: What to Hire for in a AI‑Speed World
+# Hiring a CISO for the AI-Speed Era
 
-The central hiring shift is simple, but non‑negotiable:
+## Introduction
 
-> You are no longer hiring someone to *run a security program*.  
-> You are hiring someone to *operate a decision system under time pressure*.
+Security must now operate at AI speed. Adversaries use AI to compress reconnaissance, compromise, lateral movement, and impact into a single, continuous flow. The window between first access and material damage is no longer measured in weeks. It is measured in hours, sometimes minutes. The implications for how the security function is led — and where the CISO sits in the organization — are the subject of this paper.
 
-Everything follows from that.
+This is written for boards, CEOs, and HR leaders who need to hire a Chief Information Security Officer (CISO) and want to make the decision once, and make it well.
 
+------
 
-### What to Look For
+## Part 1: The CISO You Should Hire
 
-#### 1. A Decision Engineer, Not a Control Owner
+You are not hiring a security program owner. You are hiring a **decision engineer** — the person who operates the organization's continuous decision loop under time pressure.
 
-The modern CISO must demonstrate that they:
+If security must move at AI speed, the CISO is not the manager of a control library. The CISO is the operator of a system that turns live threat intelligence into business decisions fast enough to matter. The hiring profile follows directly from that idea.
 
-*   *structure decisions before they are needed*
-*   translate uncertainty into *clear, executable options*
-*   consistently reduce *decision latency across the organization*
+### 1. Operator of a continuous, threat-led governance loop
 
-Evidence to look for:
+The candidate must have personally run a continuous governance loop at enterprise scale. Live intelligence feeds into clear decisions, and those decisions bind the rest of the executive team to action. The cadence is real and continuous — every two weeks at the operational layer, monthly at the leadership team, and quarterly at the board.
 
-*   Can they explain *how they pre‑authorized actions* before incidents?
-*   Do they describe security in terms of *“who decides what, when, and under which conditions”*?
-*   Have they removed approval bottlenecks in past environments?
+If the candidate's last role was about annual policy refreshes and periodic audits, they are the wrong fit. Periodic review is not a governance model that survives AI-speed adversaries.
 
-Red flag if they talk primarily about:
+### 2. Comfortable codifying authority *before* the incident
 
-*   frameworks, controls, or maturity levels without linking to speed and execution
+When the time between access and impact is minutes, you cannot run a phone tree to get permission to act. Authority has to be moved forward in time.
 
-#### 2. Proven Ability to Move Authority Forward
+The candidate must be willing — and able — to walk into the CEO's office, sit down with the General Counsel, and agree in writing on the conditions under which the security function may suspend identities, isolate endpoints, revoke sessions, or degrade services. No phone call in the moment. No escalation chain. The authority is set in advance.
 
-AI‑speed environments fail because authority sits too late in the process.
+This is the single hardest cultural change the role demands. Most CISO candidates will hesitate when asked about it. Hire the one who does not.
 
-You are hiring someone who:
+### 3. Refuses to own enterprise risk
 
-*   *codifies authority into policy and automation*
-*   defines *what can happen without human approval*
-*   is comfortable pre‑committing the organization to disruptive actions
+This sounds counter-intuitive, but it is essential. The candidate must say clearly, on day one, that **business leaders own their cyber risk**. The CISO's job is to equip them to own it explicitly — and to make sure they make the decision in a form they would be willing to defend publicly.
 
-Evidence to look for:
+If you hear *"I will be accountable for cyber risk across the enterprise"* in the interview, that is the wrong answer. The model in which security owns risk is convenient, and at AI speed it is dangerous. It removes accountability from the people who actually make business decisions.
 
-*   Real examples of:
-    *   pre‑approved containment (identity disablement, isolation, etc.)
-    *   incident thresholds tied to automatic action
-    *   clear escalation models without ambiguity
+### 4. Understands that latency, not gaps, is now the primary risk driver
 
-Strong candidates will speak in terms of:
+The candidate must talk about risk in terms of decision latency, authority latency, and organizational misalignment — not only in terms of control coverage. At AI speed, these three factors shape outcomes more than any additional control ever will. A candidate who only frames the problem as *"more controls, more maturity"* is reading from an older script.
 
-> “We decided this before the incident — so the system acted without us.”
+### 5. Fluent in identity as the control plane
 
-#### 3. A Translator of Technical Reality into Business Consequence
+The candidate can explain — without reaching for a vendor presentation — why standing privilege is a defect, and why identity is now the load-bearing control plane. They understand that AI agents must be governed as digital actors, with their own identity, scope, telemetry, and lifecycle. They have specific, not generic, opinions on how to do this.
 
-This is not “good communication.” 
-It is *structural translation capability*.
+### 6. Board-fluent and business-language native
 
-You want someone who can:
+The candidate translates security into the language of decisions — critical-service prioritization, acceptable loss, trade-offs the business is willing to make explicitly. Quarterly board appearances are not a stretch goal; they are part of the governance cadence. If the candidate can only present in technical scores, they are not the right person.
 
-*   convert threat intelligence into *business-relevant exposure*
-*   turn red‑team findings into *design decisions*
-*   translate SOC performance into *risk of operational disruption*
+### 7. Senior-to-senior temperament
 
-Evidence to look for:
+The candidate will say "no" to the CEO when the CEO is wrong. They will defend a pre-authored emergency action in front of the board on a Monday morning. No drama, no theatrics, no over-engineering. Calm, direct, professional.
 
-*   Can they answer: *“What does this threat mean for revenue, operations, or regulatory exposure — now?”*
-*   Do they connect technical findings to *specific business services and outcomes*?
+### What you are *not* hiring
 
-Weak candidates stay in:
+You are not hiring a deep technical operator. A CISO who needs to be the most technical person on the team is the wrong shape for this role. The job is to operate the decision system, not to run the tooling. Hire strong sub-leaders for that, and let the CISO work the layer above them.
 
-*   alerts, vulnerabilities, or control language  
-    Strong candidates operate in:
-*   *consequence, trade‑off, and timing*
+------
 
-#### 4. Obsession with Time as the Primary Risk Variable
+## Part 2: Where the CISO Should Report
 
-The best CISOs will consistently talk about:
+**Direct line: the CEO. Dotted line: the Board, with standing access — not invitation-only.**
 
-*   *time to detect, decide, and act*
-*   decision latency as a failure mode
-*   execution speed as a control
+There are three reasons.
 
-Evidence to look for:
+**First**, the CISO drives decisions that bind the rest of the executive team. A continuous governance loop converts live intelligence into decisions that constrain how the CIO, the CTO, and the business owners must operate. The party being bound cannot be the boss of the party doing the binding. If the CISO reports through the CIO, the model breaks on day one.
 
-*   Do they measure success in *minutes, not processes*?
-*   Can they explain where time is lost in decision flows?
-*   Have they restructured organizations to remove that delay?
+**Second**, the loop terminates at the board, where the conversation is about risk appetite, acceptable loss, and the prioritization of critical services. That conversation cannot be filtered through a CIO, a COO, or a General Counsel. The CISO must be in the room.
 
-If the candidate does not naturally frame security around time, they are not operating at machine speed.
+**Third**, decision speed cannot be outsourced. A two-step reporting line creates authority latency — and authority latency is one of the primary risk drivers at AI speed. You cannot solve a latency problem with a structure that creates one.
 
-#### 5. Clear Thinking on Authority Boundaries
+### Common alternatives — and why they fail
 
-A modern CISO must be precise about:
+- **Report to General Counsel.** Fashionable since recent disclosure rules, but legal framing slows decisions. Wrong for an organization that needs to respond at AI speed.
+- **Report to the COO.** Defensible *only* if the COO genuinely owns enterprise risk operationally and the CEO is hands-off. Rare. In most cases it dilutes the role.
+- **Report to the CIO.** Structurally broken. Do not do it, no matter how convenient it looks on the organization chart.
+- **Report to the Chief Risk Officer.** Works only if the CRO is a true peer of the CEO with direct board access. In most enterprises the CRO is two layers below the CEO and recreates the same delay problem.
 
-*   what they decide
-*   what leadership decides
-*   what is pre‑agreed
+The only structure that holds up is this one: **the CISO reports to the CEO, has a mandated quarterly slot with the board, and a written escalation path that does not depend on the CEO being available.**
 
-You are hiring someone who:
+That last clause matters. If the CEO is on a plane during an AI-speed incident, the pre-authored authority must still function. The structure cannot assume the CEO is always reachable.
 
-*   does *not try to “own risk”*
-*   enforces that *business leaders own risk decisions*
-*   ensures those decisions are *explicit, documented, and executable*
+------
 
-Evidence to look for:
+## A Closing Note
 
-*   Can they clearly describe:
-    *   risk ownership vs. security responsibility
-    *   escalation vs. delegation boundaries
-*   Do they avoid positioning themselves as the final authority?
+If the board asks *"where should our CISO sit?"*, the honest answer is this: the *position* on the organization chart matters less than the *authority pre-loaded into the role*. A CISO who reports to the CEO with no pre-authored authority is theater. A CISO who reports to the CIO with a board-ratified, pre-authored playbook can still function.
 
-Strong signal:
+You should be solving both — the reporting line *and* the authority. Not trading one for the other.
 
-> They deliberately push decisions back to accountable business leaders — with clarity, not avoidance.
+That is the real test of whether your organization has accepted what AI speed actually demands.
 
-#### 6. Operational Understanding of AI‑Speed Execution
-
-This is where many candidates fail.
-
-You need someone who understands:
-
-*   that *execution happens in systems, not meetings*
-*   that *automation without authority is irrelevant*
-*   that *visibility, decisioning, and action must operate as one system*
-
-Evidence to look for:
-
-*   Experience implementing:
-    *   unified telemetry (data lake / shared evidence base)
-    *   security graph or equivalent “system view”
-    *   automated containment pipelines
-*   Ability to explain:
-    *   how detection leads directly to action
-
-If they separate:
-
-*   governance
-*   SOC
-*   architecture
-
-…they are still thinking in silos, not in operating models.
-
-#### 7. Comfort with Trade-Offs Under Pressure
-
-The role is fundamentally about making the organization choose:
-
-*   what must stay up
-*   what can fail
-*   what loss is acceptable
-
-You want a CISO who:
-
-*   forces those conversations early
-*   does not accept “everything is critical”
-*   can *hold tension with executive leadership*
-
-Evidence to look for:
-
-*   Have they led discussions on:
-    *   acceptable loss
-    *   service prioritisation
-    *   deliberate degradation during incidents
-
-If they avoid trade-offs, they will create indecision later.
-
-### What You Should No Longer Hire For
-
-#### 1. “Control-Centric” CISOs
-
-Avoid candidates whose identity is built around:
-
-*   control frameworks
-*   audit coverage
-*   tool landscapes
-
-These are necessary — but *not differentiating*.
-
-They often:
-
-*   optimize for completeness instead of execution
-*   assume time exists to interpret controls
-
-#### 2. Escalation Managers
-
-A traditional CISO escalates issues upward.
-
-In a AI-speed environment, that model *fails structurally*:
-
-*   escalation introduces delay
-*   delay determines outcome
-
-Avoid candidates whose instinct is:
-
-> “We escalate to leadership during incidents.”
-
-You need:
-
-> “Leadership decisions were already embedded — the system executed.”
-
-#### 3. “Consensus Builders” in Crisis Contexts
-
-Collaboration is essential. 
-
-But real incidents do not wait for alignment.
-
-Avoid candidates who:
-
-*   emphasize coordination over decision clarity
-*   rely on cross-functional alignment during incidents instead of before
-
-You are not hiring for:
-
-*   meeting effectiveness  
-
-You are hiring for:
-
-*   *decision clarity without meetings*
-
-
-#### 4. Over-Reliance on Human Processes
-
-Candidates who describe:
-
-*   playbooks requiring human validation
-*   incident processes with multiple approval steps
-*   SOC workflows dependent on manual triage
-
-…are operating at human speed.
-
-That model is obsolete.
-
-#### 5. Technology-First Thinkers Without Governance Depth
-
-Equally dangerous are candidates who:
-
-*   default to tools, AI, or automation
-*   underplay governance, authority, and decision structure
-
-Remember:
-
-*   technology does not create speed
-*   *pre-authorized decisions do*
-
-#### 6. CISOs Who “Own the Risk”
-
-This is a legacy pattern that breaks accountability.
-
-Avoid candidates who:
-
-*   position themselves as the ultimate risk owner
-*   absorb responsibility that should sit with business leadership
-
-This leads to:
-
-*   unclear ownership
-*   weak decisions
-*   poor defensibility under pressure
-
-### The Hiring Test: One Question That Reveals Everything
-
-If you want to validate a candidate quickly, ask:
-
-*“Walk me through exactly what happens in the first 15 minutes of a critical breach — who decides, what is already pre-approved, and what executes automatically?”*
-
-Strong candidates will:
-
-*   describe *pre-authorization*
-*   define *who does not need to be asked*
-*   show *clear authority boundaries*
-*   focus on *speed and execution*
-
-Weak candidates will:
-
-*   describe coordination
-*   mention escalation
-*   talk about process instead of action
-
-### Final Positioning
-
-In a AI‑speed world, the CISO is not:
-
-*   a control owner
-*   a compliance authority
-*   a reporting function
-
-The CISO is:
-
-*The designer and operator of the organization's decision system under pressure.*
-
-You are hiring for:
-
-*   *clarity before crisis*
-*   *authority before action*
-*   *execution before explanation*
-
-Anything else is legacy optimization in a time‑compressed world.
