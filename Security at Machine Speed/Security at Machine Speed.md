@@ -1,3 +1,0 @@
-# Security at Machine Speed
-We need to get faster: So the paper series is now in the *[Security at AI Speed]([enterprise-security-perspectives/Security at Machine Speed at main · rhalbheer/enterprise-security-perspectives](https://github.com/rhalbheer/enterprise-security-perspectives/tree/main/Security at Machine Speed))*
-The pre-versions of this are in the *[original paper](https://github.com/rhalbheer/enterprise-security-perspectives/tree/main/Security%20at%20Machine%20Speed/original%20papers)* folder
