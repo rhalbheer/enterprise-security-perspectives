@@ -18,17 +18,17 @@ The folder follows the reading journey — from *why* it matters to *what your r
 
 | Stage                   | Folder              | The question it answers                                      |
 | ----------------------- | ------------------- | ------------------------------------------------------------ |
-| **1 · Foundation**      | `1-Foundation`      | Why is decision latency — not control coverage — now the primary risk? |
-| **2 · Operating Model** | `2-Operating-Model` | How do you govern and lead once you accept that argument?    |
-| **3 · Execution**       | `3-Execution`       | How do you implement it, and how do you prove it's working?  |
-| **4 · Role Guides**     | `4-Role-Guides`     | What does this mean for *my* role on Monday morning?         |
+| **1 · Foundation**      | `01 - Foundation (START HERE)` | Why is decision latency — not control coverage — now the primary risk? |
+| **2 · Operating Model** | `02 - Operating Model` | How do you govern and lead once you accept that argument?    |
+| **3 · Execution**       | `03 - Execution`    | How do you implement it, and how do you prove it's working?  |
+| **4 · Role Guides**     | `04 - Role Guides`  | What does this mean for *my* role on Monday morning?         |
 
 ```
 Security at AI Speed/
-├── 1-Foundation/        ⭐ start here
-├── 2-Operating-Model/   govern & lead
-├── 3-Execution/         implement & measure
-└── 4-Role-Guides/       one short guide per role
+├── 01 - Foundation (START HERE)/   ⭐ start here
+├── 02 - Operating Model/           govern & lead
+├── 03 - Execution/                 implement & measure
+└── 04 - Role Guides/               one short guide per role
 ```
 
 ---
@@ -39,41 +39,41 @@ Security at AI Speed/
 
 | Paper                                           | What it covers                                               | Links                                                        |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Your Security Model Is Too Slow to Matter** ⭐ | The foundational leadership reality check: why decision latency — not just control gaps — is now the primary risk driver, and what must change across governance, response, and architecture. | [Markdown](1-Foundation/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · [PDF](1-Foundation/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.pdf) |
+| **Your Security Model Is Too Slow to Matter** ⭐ | The foundational leadership reality check: why decision latency — not just control gaps — is now the primary risk driver, and what must change across governance, response, and architecture. | [Markdown](01%20-%20Foundation%20%28START%20HERE%29/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.md) · [PDF](01%20-%20Foundation%20%28START%20HERE%29/Your%20Security%20Model%20Is%20Too%20Slow%20to%20Matter.pdf) |
 
 ### 2 · Operating Model
 
 | Paper                       | What it covers                                               | Links                                                        |
 | --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Threat-Led Governance**   | How to restructure governance as a continuous operating loop — converting live threat intelligence into enforceable business decisions at AI speed, with clear cadences and decision authorities. | [Markdown](2-Operating-Model/Threat-Led%20Governance.md) · [PDF](2-Operating-Model/Threat-Led%20Governance.pdf) |
-| **The Modern CISO Profile** | What to hire for — and what to develop — in a CISO role defined by decision speed, pre-authorized authority, and continuous threat-aligned leadership. | [Markdown](2-Operating-Model/The%20Modern%20CISO%20Profile.md) · [PDF](2-Operating-Model/The%20Modern%20CISO%20Profile.pdf) |
+| **Threat-Led Governance**   | How to restructure governance as a continuous operating loop — converting live threat intelligence into enforceable business decisions at AI speed, with clear cadences and decision authorities. | [Markdown](02%20-%20Operating%20Model/Threat-Led%20Governance.md) · [PDF](02%20-%20Operating%20Model/Threat-Led%20Governance.pdf) |
+| **The Modern CISO Profile** | What to hire for — and what to develop — in a CISO role defined by decision speed, pre-authorized authority, and continuous threat-aligned leadership. | [Markdown](02%20-%20Operating%20Model/Modern%20CISO%20Profile.md) · [PDF](02%20-%20Operating%20Model/Modern%20CISO%20Profile.pdf) |
 
 ### 3 · Execution
 
 | Paper                    | What it covers                                               | Links                                                        |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Implementation Guide** | How to put the operating model into practice — the concrete steps to move from periodic review to continuous, pre-authorized response. | [Markdown](3-Execution/Implementation%20Guide.md) · [PDF](3-Execution/Implementation%20Guide.pdf) |
-| **Metrics**              | What to measure to know it's working — indicators that track decision speed and threat-aligned outcomes rather than control coverage. | [Markdown](3-Execution/Metrics.md) · [PDF](3-Execution/Metrics.pdf) |
+| **Implementation Guide** | How to put the operating model into practice — the concrete steps to move from periodic review to continuous, pre-authorized response. | [Markdown](03%20-%20Execution/Implementation%20Guide.md) · [PDF](03%20-%20Execution/Implementation%20Guide.pdf) |
+| **Metrics**              | What to measure to know it's working — indicators that track decision speed and threat-aligned outcomes rather than control coverage. | [Markdown](03%20-%20Execution/Metrics.md) · [PDF](03%20-%20Execution/Metrics.pdf) |
 
 ---
 
 ## Role Guides
 
-Short, role-specific companions in [`4-Role-Guides`](4-Role-Guides). Each one translates the series into the decisions and responsibilities of a single role. Read the Foundation paper first, then your guide.
+Short, role-specific companions in [`04 - Role Guides`](04%20-%20Role%20Guides). Each one translates the series into the decisions and responsibilities of a single role. Read the Foundation paper first, then your guide.
 
 | Role                       | Guide                                                        | Then read                            |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------ |
-| Board                      | [Board](4-Role-Guides/Board.md)                              | Foundation                           |
-| CEO                        | [CEO](4-Role-Guides/CEO.md)                                  | Foundation                           |
-| Business Owner (CFO / COO) | [Business Owner](4-Role-Guides/Business%20Owner.md)          | Foundation                           |
-| CIO                        | [CIO](4-Role-Guides/CIO.md)                                  | Foundation → Operating Model         |
-| CISO                       | [CISO](4-Role-Guides/CISO.md)                                | Foundation → The Modern CISO Profile |
-| CTO                        | [CTO](4-Role-Guides/CTO.md)                                  | Foundation → Operating Model         |
-| DPO                        | [DPO](4-Role-Guides/DPO.md)                                  | Foundation → Threat-Led Governance   |
-| Internal Audit             | [Internal Audit](4-Role-Guides/Internal%20Audit.md)          | Foundation → Threat-Led Governance   |
-| Regulatory & Compliance    | [Regulatory & Compliance](4-Role-Guides/Regulatory%20%26%20Compliance.md) | Foundation → Threat-Led Governance   |
-| SOC Lead                   | [SOC Lead](4-Role-Guides/SOC%20Lead.md)                      | Foundation → Execution               |
-| Threat Intelligence        | [Threat Intelligence](4-Role-Guides/Threat%20Intelligence.md) | Foundation → Threat-Led Governance   |
+| Board                      | [Board](04%20-%20Role%20Guides/Board%20Guide.md)                              | Foundation                           |
+| CEO                        | [CEO](04%20-%20Role%20Guides/CEO%20Role%20Guide.md)                                  | Foundation                           |
+| Business Owner (CFO / COO) | [Business Owner](04%20-%20Role%20Guides/Business%20Owner.md)          | Foundation                           |
+| CIO                        | [CIO](04%20-%20Role%20Guides/CIO%20Role%20Guide.md)                                  | Foundation → Operating Model         |
+| CISO                       | [CISO](04%20-%20Role%20Guides/CISO%20Role%20Guide.md)                                | Foundation → The Modern CISO Profile |
+| CTO                        | [CTO](04%20-%20Role%20Guides/CTO%20Role%20Guide.md)                                  | Foundation → Operating Model         |
+| DPO                        | [DPO](04%20-%20Role%20Guides/DPO%20Role%20Guide.md)                                  | Foundation → Threat-Led Governance   |
+| Internal Audit             | [Internal Audit](04%20-%20Role%20Guides/Internal%20Audit%20Role%20Guide.md)          | Foundation → Threat-Led Governance   |
+| Regulatory & Compliance    | [Regulatory & Compliance](04%20-%20Role%20Guides/Regulatory%20Compliance%20Role%20Guide.md) | Foundation → Threat-Led Governance   |
+| SOC Lead                   | [SOC Lead](04%20-%20Role%20Guides/SOC%20Lead%20Role%20Guide.md)                      | Foundation → Execution               |
+| Threat Intelligence        | [Threat Intelligence](04%20-%20Role%20Guides/Threat%20Intell%20Role%20Guide.md) | Foundation → Threat-Led Governance   |
 
 ---
 
@@ -103,4 +103,3 @@ Every paper in this section is grounded in the same set of strategic themes:
 ---
 
 *Part of [Roger Halbheer's Enterprise Security Perspectives](../).*
-
