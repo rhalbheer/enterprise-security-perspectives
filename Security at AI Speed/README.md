@@ -102,4 +102,14 @@ Every paper in this section is grounded in the same set of strategic themes:
 
 ---
 
+## Where to Find This Content
+
+This material is also available in the following formats:
+
+- 🎧 **Podcast**: [Enterprise Security Perspectives on Spotify](https://open.spotify.com/show/033ub6Rsznco36b6eIHgyE?si=72852ac7accf49e3)
+- 📺 **Video**: [Enterprise Security Perspectives on YouTube](https://youtube.com/playlist?list=PLscE386BgjeVG4Kt8HeqMegwnoQ0L0zHD&si=qusoMOriAN42Jl-x)
+- 📖 **Kindle Book**: [Enterprise Security Perspectives on Amazon](https://amzn.eu/d/04qUUVX7)
+
+---
+
 *Part of [Roger Halbheer's Enterprise Security Perspectives](../).*
