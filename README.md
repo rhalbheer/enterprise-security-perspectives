@@ -26,7 +26,6 @@ The original series and source material, including comprehensive, leadership, es
 
 A practical framework for digital sovereignty.
 
-- [Digital Sovereignty In Practice](Sovereignity%20in%20Practice/Digital%20Sovereignty%20In%20Practice.md)
 
 ---
 
