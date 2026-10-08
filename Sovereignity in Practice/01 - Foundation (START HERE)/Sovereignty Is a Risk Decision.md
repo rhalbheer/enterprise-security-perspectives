@@ -29,25 +29,37 @@
 
 **Before pricing independence, check whether it is even for sale.** For a European organization it is not. That honest sentence is worth saying out loud, early.
 
-**Start with DNS.** Every name your business uses is resolved from a single master list, the root zone. **That list is compiled by Verisign, a US company**, following instructions from an affiliate of ICANN, a California nonprofit. Europeans take part in governing it. **But no European organization decides what goes in the list**, and no purchase you make changes that.
+**Start with the number Europe's own institutions publish.** The European Commission states that the Union "currently relies on non-EU countries for over 80% of key digital products, services, infrastructure, and intellectual property".[^ectech] **That is Europe describing Europe, not a vendor describing its customers.**
 
-**The sharper way to put this is concentration risk, and a board already knows how to think about that.** You would not accept a supply chain where thirteen suppliers existed and ten of them sat in one country. In DNS you already have one.
+**Take the stack apart layer by layer and the dependency runs from the silicon to the search box.** A study for the European Parliament's industry committee mapped it in December 2025. Read the table as market concentration, which is what it measures.
 
-**The thirteen are not evenly spread.** At the top of the DNS, thirteen named authorities answer for the root of the whole system. **Ten are United States organizations. One is Japanese. Two are European**, in Sweden and the Netherlands. The full list is in the notes.[^dns]
+| Layer | What the evidence says |
+| --- | --- |
+| **Leading-edge chips** | Total autonomy in microchip production is "impossible". The EU is forecast to reach 11.7 percent of global production by 2030, against a 20 percent target the auditors called overly ambitious.[^eca] |
+| **Cloud infrastructure** | The three US hyperscalers hold about 70 percent of the EU market. The combined share of EU providers had fallen to roughly 13 percent by 2022.[^epsoft] |
+| **Enterprise software** | Around 80 percent of EU corporate spending on software and cloud flows to US vendors.[^epsoft] |
+| **Operating systems** | Android and iOS account for virtually all mobile use. Windows holds about 73 percent of the desktop.[^epsoft] |
+| **Security tooling** | US and Israeli vendors dominate firewalls, identity management and SIEM. European firms concentrate in services and in operational technology niches.[^epsoft] |
+| **Public sector IT** | Administrations rely heavily on US productivity suites and clouds, with only isolated open-source migrations.[^epsoft] |
+| **DNS, the internet's naming system** | Every name your business uses resolves from one master list, the root zone. Thirteen authorities answer for it: ten US organizations, one Japanese, two European.[^dns] |
 
-**One objection, and it does not rescue the position.** Each of those thirteen authorities runs hundreds of physical machines around the world, many of them in Europe, so the servers themselves are everywhere. **That is resilience, not control.** The machines in Europe answer with a root zone that no European organization compiled and none can change.
+**The layers are not equivalent, and treating them as one problem produces the two worst outcomes.** Read the table as uniformly hopeless and you get paralysis: we depend on everything, so why try. Read one row and declare victory and you get the press release: we bought a sovereign cloud, so we are covered. **The rows carry different prices and different timelines**, and only a per-layer reading tells you which ones you can actually move.
 
-**Be fair about what changed.** The US government gave up its authorization role in 2016, and the decisions are now made through a multistakeholder process Europeans take part in. **The argument is not that America is doing something wrong. Nobody is.** The argument is that Europe carries a concentration it did not choose and cannot purchase its way out of.
+**On DNS specifically, because it is the row usually told badly.** The US government gave up its authorization role over the root zone in 2016, and decisions are now made through a multistakeholder process Europeans take part in. **Nobody is doing anything wrong.** Europe simply carries a concentration it did not choose and cannot purchase its way out of.
 
-**And notice which kind of concentration has actually caused harm.** When a single large DNS or content delivery provider fails, large parts of the web stop working for everyone using it, whatever their jurisdiction. **That has happened in public more than once**, and the post-incident reports are there to read.[^outage] **I am aware of no comparable jurisdictional event.**
+**And the layer everyone assumes is neutral is not.** Open source arrives as a product: a US company's distribution, its support contract, its container registry, its package repository. GitHub's own trade controls page states that its understanding of US export law "does not give us the option to allow downloads or deletion of private repository content, until otherwise authorized by the U.S. government."[^gh] **The license is free. The supply chain is not.**
 
-**Then the layer everyone assumes is neutral.** Open source is often bought as a product: a US company's distribution, its support contract, its container registry, its package repository, its build pipeline. **The license is free. The supply chain is not.**
+**Europe is not standing still.** The Commission adopted a Tech Sovereignty package on 3 June 2026 containing a second Chips Act, a Cloud and AI Development Act and an EU Open Source Strategy.[^ectech] **None of it changes what you can buy this quarter.** Treat it as a trigger to watch, not a control you can show an auditor today.
 
-**GitHub says this about itself, and it makes the point better than I could.** GitHub is a Microsoft subsidiary, which sharpens the point rather than softening it. Its trade controls page states that GitHub.com, GitHub Enterprise Server and the information you upload "may be subject to trade control regulations, including under the U.S. Export Administration Regulations". It adds that its understanding of the law "does not give us the option to allow downloads or deletion of private repository content, until otherwise authorized by the U.S. government."[^gh]
+#### The dependency chain does not stop at your own platform
 
-**The hardware beneath it tells the same story, and the best source is European and official.** The European Court of Auditors audited the EU's own chip strategy. It concluded that "total autonomy in microchip production is impossible". It forecast the EU reaching 11.7 percent of global production by 2030, against a 20 percent target it called overly ambitious.[^eca]
+**You can raise the sovereignty level of your own environment and still have your data sitting somewhere that has none.** Payroll. CRM. Ticketing. E-signature. Backup. Security monitoring. **Each holds a copy of some part of your data, each sits in its own jurisdiction, and each has subprocessors you have never enumerated.**
 
-**Follow the dependency chain of any real workload and it leaves Europe within three steps.** Silicon, firmware, package distribution, root trust stores, DNS. A genuinely independent stack is not expensive. **For practical purposes, it is unavailable.** The fraction you can buy is bought at a price no board would approve if the invoice were itemized honestly.
+**This is where sovereignty programs quietly fail.** The core platform gets the attention, the contract and the budget. The twenty other systems holding the same data get a procurement checkbox. **A legal order and an attacker both take the cheapest route in**, and that is rarely the system you hardened.
+
+**So list every third party that holds or processes data for the workload you are protecting.** Name the jurisdiction, name its subprocessors, and say what happens if that supplier is compelled, breached or withdrawn. **If the list is longer than you expected, that is the finding.**
+
+**A sovereignty claim covering one platform while twenty suppliers hold the same data is not a sovereignty claim.** It is a statement about one supplier.
 
 **This is not an argument for giving up. It is an argument for precision.** If full independence is off the table, the question was never "how do we become independent". It was always **"which specific dependencies matter for this workload, and what do we do about those"**.
 
@@ -55,9 +67,7 @@
 
 **Sovereignty you can actually engineer is not a state of independence you reach.** It is a risk you manage, one workload at a time. The questions are plain: who can do what to this data, under which laws, and what happens in an exception.
 
-**There is no "sovereign" and "not sovereign".** There is only this, for each workload: how much of which kind of control is worth how much speed. Everything else in this paper follows from that sentence.
-
-**Put the sovereignty conversation in the risk register, next to the other enterprise risks.** Argue it with the same discipline and the same evidence. Not in a procurement negotiation. Not during a news story. Once you assess sovereignty like every other risk, the emotion leaves the discussion and a real conversation becomes possible.
+**Put that conversation in the risk register, next to the other enterprise risks.** Not in a procurement negotiation. Not during a news story. Once you assess sovereignty like every other risk, the emotion leaves the discussion and a real conversation becomes possible.
 
 ---
 
@@ -367,13 +377,15 @@
 
 [^gh]: GitHub, GitHub and Trade Controls. https://docs.github.com/en/site-policy/other-site-policies/github-and-trade-controls
 
-[^outage]: Two well-documented public examples. The October 2016 distributed denial of service attack against the managed DNS provider Dyn, which took Twitter, Netflix, Reddit, Spotify and GitHub offline for much of a day; see M. Antonakakis and others, "Understanding the Mirai Botnet", USENIX Security 2017, https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis . And the AWS us-east-1 disruption of 19 to 20 October 2025, which AWS's own post-event summary attributes to "a latent race condition in the DynamoDB DNS management system that resulted in an incorrect empty DNS record for the service's regional endpoint", https://aws.amazon.com/message/101925/ . Neither was a jurisdictional event.
-
 [^ee2]: European Commission, "Commission takes action to ensure complete and timely transposition of EU directives", INF/26/679, 27 March 2026, https://ec.europa.eu/commission/presscorner/api/files/document/print/en/inf_26_679/INF_26_679_EN.pdf - letters of formal notice to twenty-two member states for failing to communicate full transposition of the e-evidence Directive (EU) 2023/1544, against a transposition deadline of 18 February 2026. Note also that a corrigendum to Regulation (EU) 2023/1543 was published in July 2026; check any verbatim quotation from the Regulation against the corrected text.
 
 [^dns]: Root zone maintenance: ICANN, Root Zone Maintainer Agreement, https://www.icann.org/en/stewardship-implementation/root-zone-maintainer-agreement-rzma - under which Verisign compiles the root zone file at the direction of the IANA functions, signs it, and distributes it to the root server operators. Root server operators: IANA, Root Name Servers, https://www.iana.org/domains/root/servers - thirteen named authorities. Ten are operated by United States organizations (Verisign operates A and J; ICANN L; University of Southern California B; University of Maryland D; NASA Ames E; Internet Systems Consortium F; Cogent C; US Department of Defense G; US Army Research Lab H). The WIDE Project in Japan operates M. The two European operators are Netnod (I) and RIPE NCC (K). Each letter is served from many physical sites worldwide via anycast; the operator count is not a count of servers. On the end of the US government's authorization role: NTIA, Verisign Cooperative Agreement, https://www.ntia.gov/program/verisign-cooperative-agreement - recording that in October 2016 the Department of Commerce released Verisign from the obligation to obtain NTIA authorization before changing the root zone file.
 
 [^eca]: European Court of Auditors, Special Report 12/2025 on the EU's microchip strategy, 28 April 2025. https://www.eca.europa.eu/en/publications?ref=SR-2025-12
+
+[^ectech]: European Commission, Strengthening Europe's Tech Sovereignty. https://digital-strategy.ec.europa.eu/en/policies/eu-tech-sovereignty - source of the quoted "over 80%" figure and of the Tech Sovereignty package adopted on 3 June 2026, which contains the Chips Act 2.0 and Cloud and AI Development Act proposals, the EU Open Source Strategy and a strategic roadmap for digitalisation and AI in energy. The Commission does not publish the derivation of the 80 percent figure on that page.
+
+[^epsoft]: European Parliament, European Software and Cyber Dependencies, study for the Committee on Industry, Research and Energy (ITRE), PE 778.576, December 2025, prepared by Visionary Analytics. https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778576/ECTI_STU%282025%29778576_EN.pdf - two-page summary at PE 780.413, https://www.europarl.europa.eu/RegData/etudes/ATAG/2025/780413/ECTI_ATA%282025%29780413_EN.pdf . **The study measures market concentration, not legal exposure**, and its own underlying figures come from third parties: the EU provider share from Synergy Research Group (2022), the 80 percent enterprise spending figure from an Asteres study commissioned by Cigref (2025), and the operating system and search shares from Statcounter (2025). The opinions in the study are the authors' and are not an official position of the European Parliament.
 
 [^storm]: US Cyber Safety Review Board, Review of the Summer 2023 Microsoft Exchange Online Intrusion, 2024, published via CISA at https://www.cisa.gov/resources-tools/resources/CSRB-Review-Summer-2023-MEO-Intrusion - named here because it is the harder of the two cases against my employer and the argument should not rest on the easier one. **The Board's findings, including its criticism of the company, are quoted from that report. Verify the current location of the document before publication: the Board's members were removed in January 2025.**
 
